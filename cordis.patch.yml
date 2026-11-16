@@ -1,0 +1,16 @@
+# DeepSeek 语音输入 bundle patch
+#
+# 1. 关掉随包实验性语音输入里的麦克风控件（它用本地 SenseVoice 模型，且录音时不显示时长）；
+#    该行是单占位槽 conversation.input.activity 的占用者，必须让位给我们自己的控件。
+# 2. 插入本 bundle 的宿主插件：注册 /api/voice-input-deepseek/* 路由，把浏览器录音转发到
+#    DeepSeek 官方语音识别接口 POST https://api.deepseek.com/v1/tools/asr。
+#
+# 主机侧不再需要 speech-to-text / sensevoice / api-speech-to-text 三个随包行，
+# 但它们保持启用也无害（没有 UI 就不会触发本地模型下载），因此这里只改 UI 行。
+- id: ui-voice-input
+  disabled: true
+
+- insert:
+    - id: voice-input-deepseek
+      name: dsh-voice-input-deepseek
+      config: {}

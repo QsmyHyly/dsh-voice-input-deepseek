@@ -1,0 +1,5 @@
+# 统一用 LF 提交，避免 Windows 上的 CRLF 污染（仓库现有文件均为 LF）
+* text=auto eol=lf
+
+# 图标是文本，不做换行转换
+*.svg text eol=lf

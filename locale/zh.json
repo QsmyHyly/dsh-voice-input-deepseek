@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek 语音输入",
+    "description": "用 DeepSeek 官方语音识别接口在输入框里听写，录音时显示已录时长与 120 秒上限。"
+  }
+}

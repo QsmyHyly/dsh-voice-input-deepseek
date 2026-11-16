@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DeepSeek voice input">
+  <rect width="64" height="64" rx="16" fill="#2f6fed"/>
+  <rect x="26" y="13" width="12" height="22" rx="6" fill="#ffffff"/>
+  <path d="M19 31a13 13 0 0 0 26 0" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 44v8" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="45" cy="19" r="4.5" fill="#ff5d5d"/>
+</svg>

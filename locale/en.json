@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek voice input",
+    "description": "Dictate into the composer with the DeepSeek speech-to-text API, with a live timer and the 120-second limit beside the recording."
+  }
+}
